@@ -10,7 +10,7 @@ body{
    justify-content: center;
 }
 .card{
-   background: white;
+   background: beige;
    border-radius: 15px;
    width: 300px;
    text-align: center;
@@ -28,3 +28,22 @@ body{
 .card-body h2{
    margin-bottom: 5px;
 }
+.card-body p{
+   color:#777;
+   padding: 15px;
+}
+.card-footer{
+   background: #fff;
+   padding: 15px;
+   transition: all 0.4s ease;
+   opacity: 0;
+   transform: translateY(20px);
+   visibility: visible;
+}
+.card:hover .card-footer{
+   opacity:1;
+   transform: translateY(0);
+   visibility:visible;
+
+
+   
